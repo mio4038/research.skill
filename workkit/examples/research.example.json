@@ -1,0 +1,73 @@
+{
+  "<lead_id>": {
+    "status": "保留",
+    "name": "Example Tile Supply",
+    "country": "英国",
+    "grade": "B",
+    "business": "墙砖及马赛克经销（虚构）",
+    "customer_type": "经销商",
+    "website": "https://example.com/",
+    "address": "未确认",
+    "contact": "Sample Contact",
+    "email": "sales@example.com｜待验证",
+    "phone": "未确认",
+    "social": "未确认",
+    "china_trade": "公开范围未检出",
+    "checks": {
+      "name": "已取得",
+      "country": "已取得",
+      "business": "已取得",
+      "customer_type": "已取得",
+      "website": "已取得",
+      "address": "未确认",
+      "contact": "已取得",
+      "email": "已取得",
+      "phone": "未确认",
+      "social": "未确认",
+      "china_trade": "未确认"
+    },
+    "evidence": [
+      {
+        "kind": "name",
+        "value": "Example Tile Supply",
+        "source": "https://example.com/",
+        "source_type": "虚构官网",
+        "retrieved_at": "2026-11-19",
+        "status": "样例"
+      },
+      {
+        "kind": "business",
+        "value": "墙砖及马赛克经销（虚构）",
+        "source": "https://example.com/",
+        "source_type": "虚构官网",
+        "retrieved_at": "2026-11-19",
+        "status": "样例"
+      },
+      {
+        "kind": "website",
+        "value": "https://example.com/",
+        "source": "https://example.com/",
+        "source_type": "虚构官网",
+        "retrieved_at": "2026-11-19",
+        "status": "样例"
+      },
+      {
+        "kind": "email",
+        "value": "sales@example.com",
+        "source": "examples/inquiries.csv 第 2 行",
+        "source_type": "虚构询盘",
+        "retrieved_at": "2026-11-19",
+        "status": "待验证",
+        "verified_at": ""
+      }
+    ],
+    "path": [
+      {
+        "field": "address",
+        "query": "Example Tile Supply UK address（虚构）",
+        "at": "2026-11-19",
+        "result": "未确认"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+local-data/
+outputs/
+*.xlsx
+.env
+.env.*
+__pycache__/
